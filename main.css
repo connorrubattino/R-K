@@ -21,3 +21,7 @@ body::before {
 .navbar-link:hover {
     font-size: 1.1em; /* Increase font size on hover */
   }
+
+  .card.bg-white-transparent {
+    background-color: rgba(255, 255, 255, 0.7); /* White color with 50% transparency */
+  }
