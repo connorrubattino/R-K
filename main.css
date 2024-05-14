@@ -1,0 +1,23 @@
+body {
+    position: relative; /* Ensure positioning context */
+    background-image: url('/src/assets/images/53.jpg');
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-size: cover;
+    /* background-position: center top; */
+    background-repeat: no-repeat;
+}
+
+body::before {
+    content: ""; /* Necessary for pseudo-elements */
+    position: absolute; /* Positioning the pseudo-element */
+    top: 0; /* Position at the top of the body */
+    right: 0; /* Position at the right of the body */
+    bottom: 0; /* Position at the bottom of the body */
+    left: 0; /* Position at the left of the body */
+    /* background-color: rgba(255, 255, 255, 0.5); Semi-transparent white color */
+    z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
+
+.navbar-link:hover {
+    font-size: 1.1em; /* Increase font size on hover */
+  }
