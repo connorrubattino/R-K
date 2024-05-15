@@ -7,7 +7,7 @@ type HomeProps = {}
 export default function Home({}: HomeProps) {
   return (
     <Card className="card bg-white-transparent border-0 text-center mt-5 text-dark font-weight-bold">
-      <Card.Header><h1>Welcome to R&K Construction</h1></Card.Header>
+      <Card.Header><h1 style={{ color: '#792E2F' }} >Welcome to R&K Construction</h1></Card.Header>
       <Card.Body>
         <Card.Title ><h3>Sonoma County's premium high end interior finishers</h3></Card.Title>
         <Card.Text className='pb-5' >

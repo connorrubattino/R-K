@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation";
 import { Routes, Route } from "react-router-dom";
 import Home from "./views/Home";
 import Gallery from "./views/Gallery";
+import About from "./views/About";
 
 
 
@@ -15,6 +16,7 @@ export default function App() {
                 <Routes>
                     <Route path='/' element={<Home/>} />
                     <Route path="/gallery" element={<Gallery/>} />
+                    <Route path="/about" element={<About/>} />
                 </Routes>
             </Container>
         </>
