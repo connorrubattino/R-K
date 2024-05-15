@@ -30,3 +30,13 @@ body::before {
   .card.bg-white-transparent {
     background-color: rgba(255, 255, 255, 0.85);
   }
+
+  .custom-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* .custom-col {
+    margin-left: 5px; 
+    margin-right: 5px; 
+} */

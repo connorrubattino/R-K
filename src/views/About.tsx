@@ -12,8 +12,8 @@ export default function About({ }: Props) {
         <>
             <Container className='custom-container'>
                 <Row>
-                    <Col md={6}>
-                        <Card style={{ width: '100%' }} className="m-5 card bg-white-transparent">
+                    <Col className="custom-col" md={6}>
+                        <Card style={{ width: '100%' }} className="mt-5 card bg-white-transparent">
                             <Card.Body>
                                 <Card.Title style={{ color: '#792E2F' }} className='text-center'>R&K</Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted text-center">40 years of quality</Card.Subtitle>
@@ -24,8 +24,8 @@ export default function About({ }: Props) {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={6}>
-                        <Card style={{ width: '100%' }} className="m-5 card bg-white-transparent">
+                    <Col className="custom-col" md={6}>
+                        <Card style={{ width: '100%' }} className="mt-5 card bg-white-transparent">
                             <Card.Body>
                                 <Card.Title style={{ color: '#792E2F' }} className='text-center'>The Crew</Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted text-center">Tenure that shows</Card.Subtitle>
