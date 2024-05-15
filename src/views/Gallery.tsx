@@ -16,9 +16,9 @@ export default function Gallery({}: Props) {
       }, []);
 
   return (
-    <Container fluid style={{minHeight: '100vh', minWidth: '100vh', padding: '0', margin: '0' }}>
+    <Container fluid style={{minHeight: '100vh', padding: '0', margin: '0'}}>
         <h1 style={{ color: '#792E2F' }} className='p-1 text-center'>Check out our work</h1>
-        <Carousel fade>
+        <Carousel fade style={{ maxWidth: '80%', margin: '0 auto' }}>
         <Carousel.Item>
             <img
             className="d-block mx-auto img-fluid rounded"
