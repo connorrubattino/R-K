@@ -15,7 +15,7 @@ export default function About({ }: Props) {
                     <Col className="custom-col" md={6}>
                         <Card style={{ width: '100%' }} className="mt-5 card bg-white-transparent">
                             <Card.Body>
-                                <Card.Title style={{ color: '#792E2F' }} className='text-center'>R&K</Card.Title>
+                                <Card.Title style={{ color: '#792E2F' }} className='text-center' as="h2">R&K</Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted text-center">40 years of quality</Card.Subtitle>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the
@@ -27,7 +27,7 @@ export default function About({ }: Props) {
                     <Col className="custom-col" md={6}>
                         <Card style={{ width: '100%' }} className="mt-5 card bg-white-transparent">
                             <Card.Body>
-                                <Card.Title style={{ color: '#792E2F' }} className='text-center'>The Crew</Card.Title>
+                                <Card.Title style={{ color: '#792E2F' }} className='text-center' as="h2">The Crew</Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted text-center">Tenure that shows</Card.Subtitle>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the
