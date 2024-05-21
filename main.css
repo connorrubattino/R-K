@@ -5,6 +5,8 @@ body {
     background-size: cover;
     /* background-position: center top; */
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 body::before {
@@ -40,3 +42,15 @@ body::before {
     margin-left: 5px; 
     margin-right: 5px; 
 } */
+
+@media (min-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding: 30px;
+  }
+}
