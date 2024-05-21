@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import { Container } from 'react-bootstrap';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
 
 
 type Props = {}
@@ -11,8 +11,8 @@ export default function About({ }: Props) {
     return (
         <>
             <Container className='custom-container'>
-                <Row>
-                    <Col className="custom-col" md={6}>
+                {/* <Row> */}
+                    {/* <Col className="custom-col" md={}> */}
                         <Card style={{ width: '100%' }} className="mt-5 card bg-white-transparent">
                             <Card.Body>
                                 <Card.Title style={{ color: '#792E2F' }} className='text-center' as="h2">R&K</Card.Title>
@@ -28,8 +28,8 @@ export default function About({ }: Props) {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                    </Col>
-                    <Col className="custom-col" md={6}>
+                    {/* </Col> */}
+                    {/* <Col className="custom-col" md={6}>
                         <Card style={{ width: '100%' }} className="mt-5 card bg-white-transparent">
                             <Card.Body>
                                 <Card.Title style={{ color: '#792E2F' }} className='text-center' as="h2">The Crew</Card.Title>
@@ -45,8 +45,8 @@ export default function About({ }: Props) {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                    </Col>
-                </Row>
+                    </Col> */}
+                {/* </Row> */}
             </Container>
         </>
     )
