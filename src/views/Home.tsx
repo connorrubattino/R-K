@@ -13,7 +13,7 @@ export default function Home({}: HomeProps) {
         <Card.Text className='pb-5' >
           Check out our gallery of some of our previous projects and feel free to reach out with inquiries.
         </Card.Text>
-        <Link to={`/gallery`}><Button className='w-75' variant="dark">View Gallery</Button></Link>
+        <Link to={`/gallery`}><Button className='w-75' variant="dark" style={{ backgroundColor: '#792E2F', color: 'white' }}>View Gallery</Button></Link>
       </Card.Body>
     </Card>
   )
